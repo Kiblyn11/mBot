@@ -17,7 +17,7 @@ var Channel string = ReadConfig(ConfigFile).Channel_ID
 var Email string = ReadConfig(ConfigFile).Email_Address
 var Password string = ReadConfig(ConfigFile).Password
 var Token string = ReadConfig(ConfigFile).Discord_Token
-var Delay uint = 60
+var Delay uint = 20
 var LoggedIn = false
 
 type Configurations struct {
